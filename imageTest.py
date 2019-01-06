@@ -71,7 +71,7 @@ cv2.circle(image, (int(midX), int(height/2)), 5, (255,0,0))
 print(centerX - midX)
 
 cv2.imshow("Image", image)
-cv2.imshow("Mask", mask)
+#cv2.imshow("Mask", mask)
 
 cv2.waitKey(0)
 cv2.destroyAllWindows()
